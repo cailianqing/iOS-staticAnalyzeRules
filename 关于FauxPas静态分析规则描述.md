@@ -56,4 +56,18 @@
  		 2.如果在使用Block通知可能会产生循环引用
  		 3.注意通知死锁
  	``` 	
-6. **持续更新中....**
+6. **[查看更多](https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/CustomizingExistingClasses/CustomizingExistingClasses.html)**
+
+ 	```
+ 	规则描述：
+	 	如果类中和分类中同时定义了一个方法，那么在运行时具体使用哪一个方法的声明是不确定的
+ 	``` 	
+ 	
+7. **[查看更多](https://stackoverflow.com/questions/8972221/would-it-be-beneficial-to-begin-using-instancetype-instead-of-id)**
+
+	```
+ 	规则描述：
+	 	工厂方法的返回值类型应该填写instancetype而不是id。因为instancetype会做类型检查
+ 	``` 	
+ 	
+8. **持续更新中....**
