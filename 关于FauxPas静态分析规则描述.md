@@ -63,11 +63,22 @@
 	 	如果类中和分类中同时定义了一个方法，那么在运行时具体使用哪一个方法的声明是不确定的
  	``` 	
  	
-7. **[查看更多](https://stackoverflow.com/questions/8972221/would-it-be-beneficial-to-begin-using-instancetype-instead-of-id)**
+7. **Copying property of mutable NSCopying type**
+
+	```
+ 	规则描述：
+	 	用copy来修饰有可变类簇的类。copy出来可能是不可变的，如果调用可变的方法会crash
+ 	``` 	
+8. **[查看更多](https://stackoverflow.com/questions/8972221/would-it-be-beneficial-to-begin-using-instancetype-instead-of-id)**
 
 	```
  	规则描述：
 	 	工厂方法的返回值类型应该填写instancetype而不是id。因为instancetype会做类型检查
  	``` 	
- 	
-8. **持续更新中....**
+9. **[查看更多](https://developer.apple.com/library/archive/qa/qa1480/_index.html)**
+
+	```
+ 	规则描述：
+	 	当用NSDateFormatter的时候没有设置区域语言格式则会警告。如果切换了区域，那么这个时间戳有可能被重写。
+ 	```  	
+10. **持续更新中....**
